@@ -56,12 +56,9 @@ const InstrumentRatings: React.FC = () => {
         <div className='h-full'>
 
             <h2 className=' p-4 bg-slate-50 font-semibold'>Security Ratings</h2>
-            <Container maxWidth="xl">
+            <Container maxWidth={false} className='h-[78vh]'>
 
-                <div
-                    className="ag-theme-quartz pt-4" // applying the Data Grid theme
-                    style={{ height: 500 }} // the Data Grid will fill the size of the parent container
-                >
+                <div className="ag-theme-quartz pt-4 h-full">
                     {
                         loading && (
                             <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
