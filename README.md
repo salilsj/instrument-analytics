@@ -1,4 +1,4 @@
-# Security Analytics App Info
+# Instrument Analytics App Info
 
 The application has 2 projects -
 - React Web App - 'instrument-ratings-client'
